@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #000;
+}
+
+main {
+  width: 100%;
+  height: 60vh;
+  top: 20vh;
+  background: #000;
+  overflow: hidden;
+  position: relative;
+  opacity: 0;
+  -webkit-transition: 3s;
+  transition: 3s;
+}
+
+main.on {
+  opacity: 1;
+}
+
+main img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+p {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+p img {
+  width: 30vw;
+}
+
+aside {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font: 50px/1 "orbitron";
+  letter-spacing: 2px;
+  color: #fff;
+  background: #111;
+  -webkit-transition: 2.5s;
+  transition: 2.5s;
+}
+
+aside.off {
+  opacity: 0;
+}
+/*# sourceMappingURL=style.css.map */
